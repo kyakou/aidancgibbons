@@ -1,7 +1,7 @@
 const logotext = "aidangibbons.";
 const meta = {
     title: "Aidan Gibbons",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I'm an 18-year-old activist, entrepreneur, and academic weapon, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
 };
 
 const introdata = {
