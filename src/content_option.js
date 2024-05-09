@@ -12,7 +12,7 @@ const introdata = {
         third: "academic weapon",
     },
     description: "I'm an 18-year-old activist, entrepreneur, and academic weapon, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
-    your_img_url: "https://i2u-test.my.canva.site/aidan/images/15b7ccd47dd9d6f7f97ace0b0ad958b9.jpg",
+    your_img_url: "https://raw.githubusercontent.com/kyakou/aidancgibbons/master/src/assets/images/aidanbg.jpg",
 };
 
 const dataabout = {
