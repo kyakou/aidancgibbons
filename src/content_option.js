@@ -12,13 +12,14 @@ const introdata = {
         third: "academic weapon",
     },
     description: "I'm an 18-year-old activist, entrepreneur, and academic weapon, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
-    your_img_url: "https://raw.githubusercontent.com/kyakou/aidancgibbons/master/src/assets/images/aidanbg.jpg",
+    your_img_url: "https://raw.githubusercontent.com/kyakou/aidancgibbons/master/src/assets/images/bg.png",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about me",
+    aboutme: "Hey there, I'm Aidan and I am one of the Co-Founders of Inspired 2 Uplift. In my free time, you can find me doing a variety of things. I love playing sports, especially basketball and soccer. I'm also really into music and enjoy making my own beats and lyrics. One of my favorite hobbies is going on hikes with my family. I love the physical, yet mental challenge it provides. And of course, I am passionate about entrepreneurship and am constantly striving to learn more and grow in that field. So, why did I start Inspired 2 Uplift? Well, I've always had a desire to help others. I know what it's like to face adversity and I wanted to create a platform where people could come together, share their stories, and lift each other up. Inspired 2 Uplift is a community that encourages and empowers individuals to find their own strength, and to spread positivity wherever they go. In the future, I aspire to become a successful entrepreneur who uses my platform to continue supporting those facing adversity. I am excited to see what the future holds for Inspired 2 Uplift, and I can't wait to see the impact that we can make together."
 };
+
 const worktimeline = [{
         jobtitle: "Designer of week",
         where: "YAdfi",
@@ -147,10 +148,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    instagram: "https://github.com",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    youtube: "https://youtube.com",
 };
 export {
     meta,

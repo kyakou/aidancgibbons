@@ -23,8 +23,8 @@ export const Home = () => {
         <div className="intro_sec d-flex align-items-center h-100">
           <div className="text">
             <div className="intro mx-auto">
-              <h2 className="mb-1x">{introdata.title}</h2>
-              <h1 className="fluidz-48 mb-1x">
+              <h2 className="mb-1x dark-mode-text">{introdata.title}</h2>
+              <h1 className="fluidz-48 mb-1x dark-mode-text">
                 <Typewriter
                   options={{
                     strings: [
@@ -38,26 +38,26 @@ export const Home = () => {
                   }}
                 />
               </h1>
-              <p className="mb-1x">{introdata.description}</p>
+              <p className="mb-1x dark-mode-text">{introdata.description}</p>
               <div className="intro_btn-action pb-5">
                 <Link to="/about" className="text_2">
-                  <div id="button_p" className="ac_btn btn">
+                  <div id="button_p" className="ac_btn btn dark-mode-btn">
                     About
                     <div className="ring one"></div>
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </div>
                 </Link>
-                <Link to="/portfolio" className="text_2">
+                {/* <Link to="/portfolio" className="text_2">
                   <div id="button_p" className="ac_btn btn">
                     Portfolio
                     <div className="ring one"></div>
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </div>
-                </Link>
+                </Link> */}
                 <Link to="/contact">
-                  <div id="button_h" className="ac_btn btn">
+                  <div id="button_h" className="ac_btn btn dark-mode-btn">
                     Book me
                     <div className="ring one"></div>
                     <div className="ring two"></div>

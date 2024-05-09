@@ -236,14 +236,25 @@ section {
 /* For screens larger than mobile */
 @media only screen and (min-width: 600px) {
     .home {
-      background-position: left center;
+      background-position: calc(30% + 5vw) center; /* Adjust the percentage and vw value as needed */
+      background-size: 130%;
     }
-  }
+}
   
   /* For mobile screens */
   @media only screen and (max-width: 599px) {
     .home {
-      background-position: center bottom;
+    background-position: calc(50% + 5vw) center; /* Adjust the percentage and vw value as needed */ 
+      background-size: 425%;
     }
   }
+
+  .dark-mode-text {
+    color: #ffffff; /* Set the color for dark mode text */
+  }
   
+  .dark-mode-btn {
+    /* Add your dark mode button styles here */
+    color: #ffffff; /* Text color */
+    /* Add any other styles as needed */
+  }
