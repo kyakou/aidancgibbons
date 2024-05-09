@@ -13,6 +13,7 @@ export const Home = () => {
         className="home"
         style={{
           backgroundImage: `url(${introdata.your_img_url})`,
+          minHeight: '100vh' // Ensuring it covers at least the height of the viewport
         }}
       >
         <Helmet>
@@ -20,11 +21,11 @@ export const Home = () => {
           <title>{meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <div className="intro_sec d-flex align-items-center h-100">
+        <div className="intro_sec d-flex h-100">
           <div className="text">
-            <div className="intro mx-auto">
+            <div className="intro">
               <h2 className="mb-1x dark-mode-text">{introdata.title}</h2>
-              <h1 className="fluidz-48 mb-1x dark-mode-text">
+              <h1 className="fluidz-48 mb-3 dark-mode-text">
                 <Typewriter
                   options={{
                     strings: [

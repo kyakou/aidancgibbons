@@ -1,7 +1,7 @@
 const logotext = "aidangibbons.";
 const meta = {
     title: "Aidan Gibbons",
-    description: "I'm an 18-year-old activist, entrepreneur, and academic weapon, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
+    description: "I'm an 18-year-old activist, entrepreneur, and student, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
 };
 
 const introdata = {
@@ -11,7 +11,7 @@ const introdata = {
         second: "entrepreneur",
         third: "academic weapon",
     },
-    description: "I'm an 18-year-old activist, entrepreneur, and academic weapon, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
+    description: "I'm an 18-year-old activist, entrepreneur, and student, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
     your_img_url: "https://raw.githubusercontent.com/kyakou/aidancgibbons/master/src/assets/images/bg.png",
 };
 
@@ -137,7 +137,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "aidan@inspired2uplift.com",
     YOUR_FONE: "(555)123-4567",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
@@ -148,9 +148,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    instagram: "https://github.com",
-    linkedin: "https://linkedin.com",
-    youtube: "https://youtube.com",
+    instagram: "https://instagram.com/aidan.c.gibbons",
+    linkedin: "https://linkedin.com/in/theaidangibbons",
+    // youtube: "https://youtube.com",
 };
 export {
     meta,
