@@ -29,9 +29,9 @@ export const Home = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      introdata.animated.first,
-                      introdata.animated.second,
-                      introdata.animated.third,
+                      "activist",
+                      "entrepreneur",
+                      "academic weapon",
                     ],
                     autoStart: true,
                     loop: true,

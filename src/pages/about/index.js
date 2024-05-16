@@ -54,7 +54,7 @@ export const About = () => {
 <Col lg="7">
     <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <img
-        src="https://lh4.googleusercontent.com/0E_PPlHtk7prXey0qIu6LC7tfrVuJv5ojysg2nkM3fCvFk3ZOPGNACSEJp3Emj38AlUd2Q6QFNsx5EHC_-O8A9Jowcn3eRsJH_7ZM0tnZQAD_oQYNoILG_MSGfcck4U3sA=w1280"
+        src="https://static.wixstatic.com/media/f2774f_d25b7eacc2e84a84ba3162f65befd826~mv2.png/v1/fill/w_1438,h_712,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/f2774f_d25b7eacc2e84a84ba3162f65befd826~mv2.png"
         alt="test"
         style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
       />
@@ -80,8 +80,7 @@ export const About = () => {
       />
     </div>
             <div className="mt-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-              <p>i stole this off the internet aidan lmao</p>
+              <p>As the first-year representative on the Innovation Council at UBCO, I voiced the interests and concerns of my fellow management students, ensuring their perspectives shaped our activities and initiatives. I played a key role in planning, promoting, and executing events that enhanced the educational and social experience for students on campus.</p>
             </div>
 </Col>
 </Row>
@@ -101,7 +100,7 @@ export const About = () => {
       />
     </div>
             <div className="mt-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <p>At The Well, UBC Okanagan's student pub, I honed my culinary skills as part of the kitchen staff, preparing and restocking food, and cooking for a diverse clientele including students, faculty, and SUO staff. My role involved ensuring high standards of food quality and safety and contributing to an inviting dining experience!</p>
             </div>
 </Col>
 </Row>
@@ -130,7 +129,7 @@ export const About = () => {
       />
     </div>
             <div className="mt-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>The Richmond Chamber of Commerce Carol Young Scholarship is a $2,500 award that recognizes high school students from Richmond who have demonstrated resilience and leadership by overcoming significant challenges. The scholarship supported my own academic journey, recognizing my efforts to overcome adversity and inspire others.</p>
             </div>
 </Col>
 </Row>
@@ -152,7 +151,7 @@ export const About = () => {
       />
     </div>
             <div className="mt-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>The CNIB National Youth Council Leadership Award annually honors young leaders who have demonstrated significant community impact. Recipients receive a $1,000 prize and recognition for their leadership that aligns with the CNIB's mission to support and raise awareness for young Canadians with sight loss. </p>
             </div>
 </Col>
 </Row>
