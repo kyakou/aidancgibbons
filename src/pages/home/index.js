@@ -13,7 +13,7 @@ export const Home = () => {
         className="home"
         style={{
           backgroundImage: `url(${introdata.your_img_url})`,
-          minHeight: '100vh' // Ensuring it covers at least the height of the viewport
+          minHeight: '100vh'
         }}
       >
         <Helmet>
@@ -57,14 +57,14 @@ export const Home = () => {
                     <div className="ring three"></div>
                   </div>
                 </Link> */}
-                <Link to="/contact">
+                <a href="https://calendly.com/aidancgibbons" target="_blank" rel="noopener noreferrer">
                   <div id="button_h" className="ac_btn btn dark-mode-btn">
                     Book me
                     <div className="ring one"></div>
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

@@ -94,7 +94,7 @@ export const About = () => {
 <Col lg="7">
     <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <img
-        src="https://okmain.cms.ok.ubc.ca/wp-content/uploads/sites/26/2022/04/ubco-aerials-campus-sunset.jpg"
+        src="https://scontent.fcxh3-1.fna.fbcdn.net/v/t39.30808-6/301878508_481218824015091_5563392585199063507_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=S0E5a592uIQQ7kNvgFCqJEu&_nc_ht=scontent.fcxh3-1.fna&oh=00_AYA1roSp2fe50qgTtIz5qH8aNe-rkBBsdgB668a9SO3BSA&oe=664B24BA"
         alt="test"
         style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
       />

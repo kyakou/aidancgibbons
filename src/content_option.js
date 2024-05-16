@@ -9,9 +9,9 @@ const introdata = {
     animated: {
         first: "activist",
         second: "entrepreneur",
-        third: "academic weapon",
+        third: "student",
     },
-    description: "I'm an 18-year-old activist, entrepreneur, and student, dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
+    description: "I'm an 18-year-old changemaker dedicated to transforming schools into inclusive communities through my co-founded initiative, INSPIRED 2 UPLIFT.",
     your_img_url: "https://raw.githubusercontent.com/kyakou/aidancgibbons/master/src/assets/images/bg.png",
 };
 
