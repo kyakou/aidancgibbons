@@ -54,7 +54,7 @@ export const About = () => {
 <Col lg="5">
   <h3 className="color_sec py-2 mb-0"> Inspired 2 Uplift</h3>
   <p className="mb-0"> Executive Director and Co-founder</p>
-  <p className="mb-0"> 2022 - Present</p>
+  <p className="mb-2"> 2022 - Present</p>
 </Col>
 <Col lg="7">
     <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -74,10 +74,10 @@ export const About = () => {
 <Col lg="5">
 <h3 className="color_sec py-2 mb-0" style={{ fontSize: '24px' }}>Management Students Association</h3>
   <p className="mb-0"> First Year Representative of Innovation Council</p>
-  <p className="mb-0"> 2023 - Present</p>
+  <p className="mb-2"> 2023 - Present</p>
 </Col>
 <Col lg="7">
-    <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div  style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <img
         src="https://images.squarespace-cdn.com/content/v1/5c05b92355b02c26c5014801/96ea08b0-55bc-4796-9acb-dc54c60b6060/IMG_6864.jpg?format=750w"
         alt="test"
@@ -94,7 +94,7 @@ export const About = () => {
 <Col lg="5">
 <h3 className="color_sec py-2 mb-0" style={{ fontSize: '24px' }}>The Well Pub @ UBC Okanagan</h3>
   <p className="mb-0"> Kitchen Staff</p>
-  <p className="mb-0"> 2023 - Present</p>
+  <p className="mb-2"> 2023 - Present</p>
 </Col>
 <Col lg="7">
     <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -123,7 +123,7 @@ export const About = () => {
   <h3 className="color_sec py-2 mb-0" style={{ textDecoration: 'none !important' }}>Carol Young Scholarship Award</h3>
 </a>
 
-  <p className="mb-0"> 2023</p>
+  <p className="mb-2"> 2023</p>
 </Col>
   <Col lg="7">
       <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -145,7 +145,7 @@ export const About = () => {
     <h3 className="color_sec py-2 mb-0" style={{ textDecoration: 'none !important' }}>CNIB National Youth Council Leadership Award</h3>
   </a>
 
-    <p className="mb-0"> 2023</p>
+    <p className="mb-2"> 2023</p>
   </Col>
   <Col lg="7">
       <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
