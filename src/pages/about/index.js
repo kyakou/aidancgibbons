@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import {
   dataabout,
   meta,
@@ -27,7 +28,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp mb-0">
           <Col lg="5">
-            <h3 className="color_sec py-4 mb-9">{dataabout.title}</h3>
+            <h3 className="color_sec py-4 mb-9">My Story</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center mb-0">
             <div className="">
@@ -98,7 +99,7 @@ export const About = () => {
 <Col lg="7">
     <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <img
-        src="https://scontent.fcxh3-1.fna.fbcdn.net/v/t39.30808-6/301878508_481218824015091_5563392585199063507_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=S0E5a592uIQQ7kNvgFCqJEu&_nc_ht=scontent.fcxh3-1.fna&oh=00_AYA1roSp2fe50qgTtIz5qH8aNe-rkBBsdgB668a9SO3BSA&oe=664B24BA"
+        src="https://raw.githubusercontent.com/kyakou/aidancgibbons/master/src/assets/images/well.jpg"
         alt="test"
         style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
       />
@@ -124,41 +125,87 @@ export const About = () => {
 
   <p className="mb-0"> 2023</p>
 </Col>
-<Col lg="7">
-    <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <img
-        src="https://www.richmondsentinel.ca/uploads/article/CarolYoungScholarship_230620.jpg"
-        alt="test"
-        style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
-      />
-    </div>
-            <div className="mt-4">
-            <p>The Richmond Chamber of Commerce Carol Young Scholarship is a $2,500 award that recognizes high school students from Richmond who have demonstrated resilience and leadership by overcoming significant challenges. The scholarship supported my own academic journey, recognizing my efforts to overcome adversity and inspire others.</p>
-            </div>
-</Col>
+  <Col lg="7">
+      <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <img
+          src="https://www.richmondsentinel.ca/uploads/article/CarolYoungScholarship_230620.jpg"
+          alt="test"
+          style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
+        />
+      </div>
+              <div className="mt-4">
+              <p>The Richmond Chamber of Commerce Carol Young Scholarship is a $2,500 award that recognizes high school students from Richmond who have demonstrated resilience and leadership by overcoming significant challenges. The scholarship supported my own academic journey, recognizing my efforts to overcome adversity and inspire others.</p>
+              </div>
+  </Col>
 </Row>
 
 <Row className="sec_sp mb-5">
-<Col lg="5">
-<a href="https://www.cnib.ca/en/blog/meet-aidan-gibbons-recipient-2023-cnib-national-youth-council-leadership-award">
-  <h3 className="color_sec py-2 mb-0" style={{ textDecoration: 'none !important' }}>CNIB National Youth Council Leadership Award</h3>
-</a>
+  <Col lg="5">
+  <a href="https://www.cnib.ca/en/blog/meet-aidan-gibbons-recipient-2023-cnib-national-youth-council-leadership-award">
+    <h3 className="color_sec py-2 mb-0" style={{ textDecoration: 'none !important' }}>CNIB National Youth Council Leadership Award</h3>
+  </a>
 
-  <p className="mb-0"> 2023</p>
-</Col>
-<Col lg="7">
-    <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <img
-        src="https://www.cnib.ca/sites/default/files/styles/banner_image_wide/public/2023-09/AG_Banner.png?h=7acbc861&itok=GA5Kb35m"
-        alt="test"
-        style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
-      />
-    </div>
-            <div className="mt-4">
-            <p>The CNIB National Youth Council Leadership Award annually honors young leaders who have demonstrated significant community impact. Recipients receive a $1,000 prize and recognition for their leadership that aligns with the CNIB's mission to support and raise awareness for young Canadians with sight loss. </p>
-            </div>
-</Col>
+    <p className="mb-0"> 2023</p>
+  </Col>
+  <Col lg="7">
+      <div style={{ width: '100%', height: '300px', overflow: 'hidden', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <img
+          src="https://www.cnib.ca/sites/default/files/styles/banner_image_wide/public/2023-09/AG_Banner.png?h=7acbc861&itok=GA5Kb35m"
+          alt="test"
+          style={{ width: '100%', height: '100%', borderRadius: '10px', objectFit: 'cover', objectPosition: 'top center' }}
+        />
+      </div>
+              <div className="mt-4">
+              <p>The CNIB National Youth Council Leadership Award annually honors young leaders who have demonstrated significant community impact. Recipients receive a $1,000 prize and recognition for their leadership that aligns with the CNIB's mission to support and raise awareness for young Canadians with sight loss. </p>
+              </div>
+  </Col>
 </Row>
+
+<Row className="mb-3 mt-3 pt-md-3">
+    <Col lg="8">
+      <h1 className="display-4">Contact</h1>
+      <hr className="t_border my-4 ml-0 text-left" />
+    </Col>
+</Row>
+
+<Row className="sec_sp">
+          <Col lg="5" className="mb-5">
+            <h3 className="color_sec py-4">Get in touch</h3>
+            <address>
+              <strong>Email:</strong> aidan@inspired2uplift.com
+              <br />
+              <br />
+            </address>
+            <a href="https://calendly.com/aidancgibbons" target="_blank" rel="noopener noreferrer">
+                  <div id="button_h" className="ac_btn btn dark-mode-btn">
+                    Book me
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+                </a>
+          </Col>
+          <Col lg="7" className="d-flex justify-content-end align-items-center">
+          <div className="intro_btn-action pb-5">
+                {/* <Link to="/about" className="text_2">
+                  <div id="button_p" className="ac_btn btn dark-mode-btn">
+                    About
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+                </Link> */}
+                {/* <a href="https://calendly.com/aidancgibbons" target="_blank" rel="noopener noreferrer">
+                  <div id="button_h" className="ac_btn btn dark-mode-btn">
+                    Book me
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+                </a> */}
+              </div>
+          </Col>
+        </Row>
 
         {/* <Row className="sec_sp">
             <h3 className="color_sec py-4">Skills</h3>

@@ -49,14 +49,6 @@ export const Home = () => {
                     <div className="ring three"></div>
                   </div>
                 </Link>
-                {/* <Link to="/portfolio" className="text_2">
-                  <div id="button_p" className="ac_btn btn">
-                    Portfolio
-                    <div className="ring one"></div>
-                    <div className="ring two"></div>
-                    <div className="ring three"></div>
-                  </div>
-                </Link> */}
                 <a href="https://calendly.com/aidancgibbons" target="_blank" rel="noopener noreferrer">
                   <div id="button_h" className="ac_btn btn dark-mode-btn">
                     Book me
