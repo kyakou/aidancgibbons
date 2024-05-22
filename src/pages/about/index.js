@@ -14,7 +14,7 @@ import {
 export const About = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header">
+      <Container className="About-header about-page">
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>

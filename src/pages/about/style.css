@@ -6,7 +6,7 @@
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
     --overlay-color: rgb(12 12 12 / 63%);
-    --button-text-color: #fff; /* Default button text color for dark mode */
+    --button-text-color: #000; /* Default button text color for dark mode */
 }
 
 [data-theme="light"] {
@@ -17,7 +17,7 @@
     --text-color-2: #000;
     --text-color-3: rgb(204, 0, 0);
     --overlay-color: rgb(255 255 255 / 70%);
-    --button-text-color: #000; /* Button text color for light mode */
+    --button-text-color: #fff; /* Button text color for light mode */
 }
 
 html,
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Marcellus;
+    font-family: 'Marcellus', serif; /* Ensure Marcellus font is applied */
 }
 
 a,
@@ -97,14 +97,24 @@ code {
     color: var(--secondary-color);
 }
 
-/* Add button text color based on theme */
-.dark-mode-btn {
-    color: var(--button-text-color) !important;
+/* Scoped button text color and styles for the About page */
+.about-page .dark-mode-btn {
+    color: var(--button-text-colo-inverse) !important;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Media query for smaller buttons on mobile devices for the About page */
+@media (max-width: 767px) {
+    .about-page .dark-mode-btn {
+        padding: 5px 10px; /* Adjust padding for smaller buttons */
+        font-size: 12px; /* Adjust font size for smaller buttons */
+    }
 }
 
 /* Additional CSS */
 .sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
+    margin-bottom: calc(3rem + 5.128vw);
 }
 
 .table td,
