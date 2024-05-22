@@ -31,9 +31,13 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center mb-0">
             <div className="">
-            <p>Hey there, I'm Aidan and I am one of the Co-Founders of Inspired 2 Uplift.</p>
-            <p>In my free time, you can find me doing a variety of things. I love playing sports, especially basketball and soccer. I'm also really into music and enjoy making my own beats and lyrics. One of my favorite hobbies is going on hikes with my family. I love the physical, yet mental challenge it provides. And of course, I am passionate about entrepreneurship and am constantly striving to learn more and grow in that field.</p>
-            <p>In the future, I aspire to become a successful entrepreneur who uses my platform to continue supporting those facing adversity. I am excited to see what the future holds for Inspired 2 Uplift, and I can't wait to see the impact that we can make together.</p>
+            <p>Aidan Gibbons is an 18-year-old social impact leader pursuing both a bachelor's and master's degree in Business Management as an incoming freshman at The University of British Columbia. He is very enthusiastic about change-making, youth leadership, and disability awareness.</p>
+
+            <p>Aidan is the Co-founder and Executive Director of one of the fastest-growing youth-led nonprofit organizations in the world, helping spread awareness and support for kids facing disabilities: INSPIRED 2 UPLIFT. His NGO works towards normalizing the school environment and providing a caring and safe community for students with disabilities as they navigate the uphill battle against societal stigmas at school and in their community. In the past year, Aidan, along with his partners, cultivated a team of youth leaders in growing their own I2U chapters throughout Western Canada and the USA.</p>
+
+            <p>Aidan's work has been recognized in local news outlets and has been awarded through distinctions and scholarships within his community.</p>
+
+            <p>He strongly believes in uniting the younger generations to make positive change and plans on discussing his journey, youth leadership, and nonprofit at speaking events across the nation in the coming years.</p>
             </div>
           </Col>
         </Row>
