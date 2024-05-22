@@ -183,7 +183,23 @@ export const About = () => {
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </div>
-                </a>
+            </a>
+            <a href="https://www.linkedin.com/in/theaidangibbons/" target="_blank" rel="noopener noreferrer">
+                  <div id="button_h" className="ac_btn btn dark-mode-btn">
+                    Linkedin
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+            </a>
+            <a href="https://www.instagram.com/aidan.c.gibbons" target="_blank" rel="noopener noreferrer">
+                  <div id="button_h" className="ac_btn btn dark-mode-btn">
+                    Instagram
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+            </a>
           </Col>
           <Col lg="7" className="d-flex justify-content-end align-items-center">
           <div className="intro_btn-action pb-5">
