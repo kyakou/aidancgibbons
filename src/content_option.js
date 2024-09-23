@@ -148,7 +148,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    instagram: "https://instagram.com/aidan.c.gibbons",
+    instagram: "https://instagram.com/aidancgibbons",
     linkedin: "https://linkedin.com/in/theaidangibbons",
     // youtube: "https://youtube.com",
 };

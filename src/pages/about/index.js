@@ -192,7 +192,7 @@ export const About = () => {
                     <div className="ring three"></div>
                   </div>
             </a>
-            <a href="https://www.instagram.com/aidan.c.gibbons" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/aidancgibbons" target="_blank" rel="noopener noreferrer">
                   <div id="button_h" className="ac_btn btn dark-mode-btn">
                     Instagram
                     <div className="ring one"></div>

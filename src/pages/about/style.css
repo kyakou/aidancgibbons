@@ -32,7 +32,7 @@ body {
     overflow-y: visible;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding-top: 60px;
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Marcellus', serif; /* Ensure Marcellus font is applied */
+    font-family: 'Open Sans', serif; /* Ensure Open Sans font is applied */
 }
 
 a,
@@ -130,7 +130,7 @@ code {
     font-size: 16px;
     font-weight: 700;
     margin: 15px 0 20px;
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
 }
 
 .progress {
