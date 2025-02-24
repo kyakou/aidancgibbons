@@ -54,33 +54,41 @@
 
 @media only screen and (max-width: 991px) {
     .stick_follow_icon {
-        width: unset;
-        height: unset;
-        position: static;
-        margin-top: unset;
+        position: fixed;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+        height: auto;
+        margin: 0;
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        padding: 40px 0;
+        flex-direction: column-reverse;
         align-items: center;
+        z-index: 100;
     }
     .stick_follow_icon p {
-        top: unset;
-        left: unset;
-        width: unset;
-        height: unset;
-        white-space: nowrap;
-        position: relative;
-        transform: unset;
-        font-size: 17px;
-        margin-right: 65px;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        transform: none;
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    .stick_follow_icon p:after {
+        display: none;
     }
     .stick_follow_icon ul {
-        margin-bottom: 20px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 15px;
     }
     .stick_follow_icon ul li {
-        display: inline;
-        margin-bottom: 29px;
-        margin-right: 10px;
+        display: inline-block;
+        margin: 0;
+    }
+    .stick_follow_icon svg {
+        width: 1.2em;
+        height: 1.2em;
     }
 }

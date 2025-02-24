@@ -72,17 +72,21 @@ const Headermain = () => {
                     Ubaida Mutlaq
                 </a> */}
               </p>
-              <p className="copyright m-0">
-                Aidan C. Gibbons
+              <p className="copyright m-0" style={{ fontSize: '0.50rem', color: '#666666' }}>
+                {/* Aidan C. Gibbons */}
+                Adapted from{" "}
+                <a href="https://github.com/ubaimutl/" className="nobreak" style={{ textDecoration: "underline", color: '#666666' }}>
+                    Ubaida Mutlaq
+                </a>
               </p>
             </div>
           </div>
         </div>
       </header>
-      <div className="br-top"></div>
+      {/* <div className="br-top"></div>
       <div className="br-bottom"></div>
       <div className="br-left"></div>
-      <div className="br-right"></div>
+      <div className="br-right"></div> */}
     </>
   );
 };

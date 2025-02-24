@@ -28,8 +28,8 @@
     background: var(--primary-color);
     font-size: 1.25rem;
     font-family: 'Open Sans';
-    color: var(--text-color-2);
-    line-height: 2;
+    background-color: transparent !important;
+    line-height: 2; 
     height: 50px;
     font-weight: bold;
     z-index: 1000;
@@ -50,7 +50,6 @@
 
 .br-top {
     top: 0;
-    height: 10px;
     left: 0;
     width: 100%;
 }

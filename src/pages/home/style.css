@@ -36,7 +36,6 @@ section {
     justify-content: center; 
     height: calc(100vh - 60px);
     min-height: 100vh;
-    margin-top: -60px;
     width: 100%;
 }
 
@@ -51,19 +50,21 @@ section {
 
 @media (max-width: 991.98px) {
     .intro_sec {
-        height: auto;  
-        min-height: 75vh;  
-        padding: 20px; 
+        height: 100vh;
+        min-height: 100vh;
+        margin-top: 0;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
     }
     .intro_sec .intro {
-        max-width: 700px;  
-        padding-left: 20px;  
+        max-width: 700px;
+        padding-left: 20px;
         padding-right: 20px;
+        margin: 0;
+        text-align: left;
     }
 }
-
-
-
 
 .intro_sec .text,
 .intro_sec .h_bg-image {
@@ -254,37 +255,45 @@ section {
     filter: saturate(0.1);
 }
 
-/* For screens larger than mobile */
-@media only screen and (min-width: 600px) {
-    .home {
-      background-position: calc(30% + 5vw) center; /* Adjust the percentage and vw value as needed */
-      background-size: 130%;
-      background-repeat: no-repeat;
-      min-height: 100vh;
-    }
+/* For all screen sizes */
+.home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
-  
-  /* For mobile screens */
-  @media only screen and (max-width: 599px) {
-    .home {
-    background-position: calc(50% + 5vw) center; /* Adjust the percentage and vw value as needed */ 
-      background-size: 425%;
-      background-repeat: no-repeat;
-    }
-  }
 
-  .dark-mode-text {
-    color: #ffffff; /* Set the color for dark mode text */
+/* For mobile screens */
+@media only screen and (max-width: 599px) {
+  .home {
+    background-position: center;
+    background-attachment: scroll;
+    position: absolute; /* Better for mobile */
   }
-  
-  .dark-mode-btn {
-    /* Add your dark mode button styles here */
-    color: #ffffff; /* Text color */
-    /* Add any other styles as needed */
-  }
+}
 
-  .background-color-section {
-    background-color: rgba(0, 0, 0, 0.0); /* Change this to your desired color */
-  }
+.dark-mode-text {
+  color: #ffffff; /* Set the color for dark mode text */
+}
+
+.dark-mode-btn {
+  /* Add your dark mode button styles here */
+  color: #ffffff; /* Text color */
+  /* Add any other styles as needed */
+}
+
+.background-color-section {
+  background-color: rgba(0, 0, 0, 0.0); /* Change this to your desired color */
+}
 
   
