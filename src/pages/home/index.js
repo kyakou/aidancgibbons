@@ -57,6 +57,14 @@ export const Home = () => {
                     <div className="ring three"></div>
                   </div>
                 </a>
+                <a href="https://agrilink-mgmt250.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <div id="button_p" className="ac_btn btn dark-mode-btn">
+                    Work with me!
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

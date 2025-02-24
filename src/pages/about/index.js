@@ -14,7 +14,7 @@ import {
 export const About = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header about-page">
+      <Container className="About-header about-page" style={{ paddingTop: '60px' }}>
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>
@@ -22,13 +22,13 @@ export const About = () => {
         </Helmet>
         <Row className="mb-3 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 mb-4" style={{fontWeight: 700}}>About Me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp mb-0">
           <Col lg="5">
-            <h3 className="color_sec py-4 mb-9">My Story</h3>
+            <h3 className="color_sec py-4 mb-0" >Story</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center mb-0">
             <div className="">
@@ -45,14 +45,14 @@ export const About = () => {
 
   <Row className="mb-3 mt-3 pt-md-3">
     <Col lg="8">
-      <h1 className="display-4">Work</h1>
+      <h1 className="display-4" style={{fontWeight: 700}}>Work</h1>
       <hr className="t_border my-4 ml-0 text-left" />
     </Col>
   </Row>
 
 <Row className="sec_sp mb-5">
 <Col lg="5">
-  <h3 className="color_sec py-2 mb-0"> Inspired 2 Uplift</h3>
+  <h3 className="color_sec py-2 mb-0" style={{fontWeight: 600}}> Inspired 2 Uplift</h3>
   <p className="mb-0"> Executive Director and Co-founder</p>
   <p className="mb-2"> 2022 - Present</p>
 </Col>
@@ -72,7 +72,7 @@ export const About = () => {
 
 <Row className="sec_sp mb-5">
 <Col lg="5">
-<h3 className="color_sec py-2 mb-0" style={{ fontSize: '24px' }}>Management Students Association</h3>
+<h3 className="color_sec py-2 mb-0" style={{ fontSize: '24px' , fontWeight:600}}>Management Students Association</h3>
   <p className="mb-0"> First Year Representative of Innovation Council</p>
   <p className="mb-2"> 2023 - Present</p>
 </Col>
@@ -92,7 +92,7 @@ export const About = () => {
 
 <Row className="sec_sp mb-5">
 <Col lg="5">
-<h3 className="color_sec py-2 mb-0" style={{ fontSize: '24px' }}>The Well Pub @ UBC Okanagan</h3>
+<h3 className="color_sec py-2 mb-0" style={{ fontSize: '24px' , fontWeight:600}}>The Well Pub @ UBC Okanagan</h3>
   <p className="mb-0"> Kitchen Staff</p>
   <p className="mb-2"> 2023 - Present</p>
 </Col>
@@ -112,7 +112,7 @@ export const About = () => {
 
 <Row className="mb-3 mt-3 pt-md-3">
     <Col lg="8">
-      <h1 className="display-4">Awards and Press</h1>
+      <h1 className="display-4" style={{fontWeight: 700}}>Awards and Press</h1>
       <hr className="t_border my-4 ml-0 text-left" />
     </Col>
   </Row>
@@ -163,7 +163,7 @@ export const About = () => {
 
 <Row className="mb-3 mt-3 pt-md-3">
     <Col lg="8">
-      <h1 className="display-4">Contact</h1>
+      <h1 className="display-4" style={{fontWeight: 700}}>Contact</h1>
       <hr className="t_border my-4 ml-0 text-left" />
     </Col>
 </Row>
