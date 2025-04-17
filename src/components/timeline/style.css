@@ -1,0 +1,71 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #e9ecef;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.timeline-content h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.timeline-content .where {
+  color: #666;
+  margin: 0 0 5px 0;
+}
+
+.timeline-content .date {
+  color: #888;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline-item:nth-child(even) {
+    left: 0;
+  }
+} 
